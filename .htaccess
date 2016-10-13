@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^felipeelhombre\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.felipeelhombre\.com$
+RewriteRule ^twitter$ "https\:\/\/twitter\.com\/felipeelhombre" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^felipeelhombre\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.felipeelhombre\.com$
+RewriteRule ^facebook$ "https\:\/\/www\.facebook\.com\/felipeelhombreoficial" [R=301,L]
+
