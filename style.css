@@ -5,11 +5,12 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   text-transform: uppercase;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
+  letter-spacing: 5px;
 }
 .despertar {
   background: url(images/bg-despertar.png) no-repeat center center fixed;
@@ -48,7 +49,6 @@ header p {
   font-weight: 300;
 }
 article {
-  padding: 40px 0 130px;
   background: #000;
 }
 article h2 {
@@ -88,6 +88,9 @@ table.table tr td:last-child {
   padding: 20px 0 40px 0;
   font-weight: 400;
 }
+.social {
+  padding-top: 30px;
+}
 .social a {
   margin-right: 20px;
   margin-bottom: 10px;
@@ -100,6 +103,28 @@ table.table tr td:last-child {
 }
 .bit-events {
   margin: 30px 0;
+}
+.name {
+  padding-top:50px;
+}
+.single-text {
+  color: #3c445e;
+}
+.single-name {
+  color: #804b5b;
+  font-size: 54px;
+}
+.platforms {
+  padding-top: 0;
+  color: #3c445e;
+}
+iframe {
+  box-shadow: 0 20px 40px rgba(0,0,0,.3);
+}
+footer {
+  background: #000;
+  border-top: 1px solid rgba(0,0,0,.1);
+  text-align: center;
 }
 @media (max-width: 767px) {
   header .row {
