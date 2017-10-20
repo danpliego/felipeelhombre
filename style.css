@@ -19,6 +19,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+iframe {
+  max-width: 100%;
+}
 a {
   color: #666;
 }
@@ -134,4 +137,12 @@ footer {
     padding-bottom: 0;
     position: relative;
   }
+}
+
+@media (max-width: 768px) {
+
+  iframe {
+    height: 350px;
+  }
+
 }
